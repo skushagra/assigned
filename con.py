@@ -1,5 +1,7 @@
 while True:
 	i = input("Enter a number ('e' to exit) : ")
+	if i == "e":
+	break
 	n = int(i)
 	while True:
 		if n % 2 == 0 and n != 1:
@@ -11,5 +13,3 @@ while True:
 		elif n == 1:
 			print()
 			break
-	if i == "e":
-		break
